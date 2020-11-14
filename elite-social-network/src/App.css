@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.backgroundcommonall {
+  background: #e1e7e9;
+}
+
+.logorelative {
+  position: relative;
+}
+
+.logoabsolute {
+  position: absolute;
+  top: -30px;
+  left: 42%;
+}
+
+.displayallcenter {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -28,11 +48,36 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoImage {
+  width: 58px;
+  height: 58px;
+  border-radius: 49%;
+}
+
+.mainBrick {
+  min-width: 350px;
+  max-width: 380px;
+  min-height: 440px;
+  background: white;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+  width: 83%;
+}
+
+.fullwidthfullheight {
+  width: 100vw;
+  height: 100vh;
+}
+
+.restrict-width {
+  width: 83%;
+}
+
+.font-super-small {
+  font-size: x-small;
+}
+
+.border-radius-ten {
+  border-radius: 10px;
 }
