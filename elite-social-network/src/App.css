@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background: #e1e7e9;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
 }
 
 .App-logo {
@@ -13,12 +22,18 @@
 
 .logorelative {
   position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .logoabsolute {
   position: absolute;
   top: -30px;
   left: 42%;
+}
+
+.errorText {
+  color: rgb(236, 31, 72);
 }
 
 .displayallcenter {
@@ -31,6 +46,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.mainLoginBrick {
+  min-width: 350px;
+  max-width: 380px;
+  min-height: 325px;
+  background: white;
 }
 
 .App-header {
@@ -67,7 +89,9 @@
 
 .fullwidthfullheight {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .restrict-width {
