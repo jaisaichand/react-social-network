@@ -4,11 +4,13 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
 import { Formik } from 'formik';
-import Box from '@material-ui/core/Box';
+
 import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
 import '../App.css';
 import logo from '../jai_crown2.png';
 import * as Yup from 'yup';
+import { Link } from 'react-router-dom';
 
 
 
@@ -76,7 +78,7 @@ const SignUp = () => {
                                         <img className="logoImage" src={logo} alt="" />
                                     </div>
                                 </div>
-                                <hr />
+                                <hr style={{ width: '20px' }} />
                                 <div className="mt-4">
                                     <h4>Create a new account</h4>
                                     <p><span className="text-muted">Its quick and easy</span></p>
@@ -142,6 +144,7 @@ const SignUp = () => {
 
                                     <Button className="mb-3" variant="contained" color="secondary" type="submit">Submit</Button>
                                 </form>
+                                <p className="pb-3"> Already have an account ? <Link to="/login" style={{ textDecoration: 'none' }}><span>Login</span></Link></p>
                             </Box>
                         </Container>
                     </div>

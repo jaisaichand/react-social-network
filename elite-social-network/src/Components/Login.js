@@ -60,9 +60,9 @@ const Login = () => {
                                         <img className="logoImage" src={logo} alt="" />
                                     </div>
                                 </div>
-                                <hr />
+                                <hr style={{ width: '20px' }} />
                                 <div className="mt-4">
-                                    <h4>Create a new account</h4>
+                                    <h4>Login to your account</h4>
                                     <p><span className="text-muted">Its quick and easy</span></p>
                                 </div>
                                 <hr />
@@ -90,7 +90,7 @@ const Login = () => {
 
                                     <Button className="mb-3" variant="contained" color="secondary" type="submit">Login</Button>
                                 </form>
-                                <p> <Link to="/signup" style={{ textDecoration: 'none' }}><span>Forgot Password?</span></Link></p>
+                                <p> <Link to="/forgotpassword" style={{ textDecoration: 'none' }}><span>Forgot Password?</span></Link></p>
                                 <p className="pb-3"> Didn't have an account yet? <Link to="/signup" style={{ textDecoration: 'none' }}><span>Create one</span></Link></p>
                             </Box>
                         </Container>

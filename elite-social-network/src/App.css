@@ -94,6 +94,80 @@ body,
   margin: 0 auto;
 }
 
+.mainflexnav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainflexnav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.search {
+  position: relative;
+  border-radius: 8px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.tabsParent {
+  top: -8px;
+  position: relative;
+}
+
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorTransparent.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+AppBar {
+  box-shadow: none !important;
+}
+.searchIcon {
+  padding: 5px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .mainflexnav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.logoClass {
+  width: 50px;
+  height: 50px;
+  border-radius: 49%;
+}
+
+.AddIconClass {
+  font-size: 40px !important;
+}
+.mainlogo {
+  width: 50px !important;
+  height: 50px !important;
+}
+.fulltopbar {
+  width: 100%;
+  background: white;
+  -webkit-box-shadow: 1px 24px 35px -29px rgba(128, 128, 128, 0.74);
+  -moz-box-shadow: 1px 24px 35px -29px rgba(128, 128, 128, 0.74);
+  box-shadow: 1px 24px 35px -29px rgba(128, 128, 128, 0.74);
+  height: 70px;
+}
+
 .restrict-width {
   width: 83%;
 }
