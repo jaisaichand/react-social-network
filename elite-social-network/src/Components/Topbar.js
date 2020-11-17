@@ -104,7 +104,7 @@ const Topbar = (propss) => {
                 {/* all icon tabs end */}
 
                 {/* searchbar */}
-                <div className="mainSearch">
+                {/* <div className="mainSearch">
                     <SearchBar
                         onChange={() => console.log('onChange')}
                         onRequestSearch={() => console.log('onRequestSearch')}
@@ -113,15 +113,21 @@ const Topbar = (propss) => {
                             maxWidth: 800
                         }}
                     />
-                </div>
+                </div> */}
 
                 {/* addIcon */}
                 {/* <div className="mainlogo displayallcenter">
                     <AddCircleOutlineIcon color="action" className="AddIconClass"></AddCircleOutlineIcon>
                 </div> */}
-                <Fab color="inherit" aria-label="add" className="mainlogo displayallcenter">
+                {/* <Fab color="inherit" aria-label="add" className="mainlogo displayallcenter">
                     <AddIcon color="inherit" className="AddIconClass" />
-                </Fab>
+                </Fab> */}
+
+                <div className="mainlogo displayallcenter">
+                    <IconButton className="mainlogo">
+                        <AccountCircle color="action" className="AddIconClass" />
+                    </IconButton>
+                </div>
             </div>
         </div>
     )

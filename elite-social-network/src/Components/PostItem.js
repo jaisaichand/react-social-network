@@ -89,8 +89,9 @@ Media.propTypes = {
 export default function PostItem() {
     return (
         <div>
-            <Media loading />
             <Media />
+            <Media loading />
+
         </div>
     );
 }
